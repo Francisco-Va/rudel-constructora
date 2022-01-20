@@ -1,0 +1,26 @@
+.content{
+    background-color: #434343;
+   }
+
+   .btn{
+       position: relative;
+       display: block;
+       height: 77px;
+       width: 300px;
+       border-radius: 4px;
+       text-transform: uppercase;
+       background-color: transparent;
+       color: rgb(20, 10, 10);
+       font-size: 18px;
+       overflow: hidden;
+       transition: all 500ms ease;
+       border: 2px solid #20e2d2;
+       margin-bottom: 40px;
+       z-index: 0;
+       font-weight: 700;
+
+       &::before{
+           content: '';
+           
+       }
+   }
